@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #450b6f;
+  --secondary-color: #9d82ae;
+  --tertiary-color: #4a396d;
+  --th-bg-color: #1e6cc6;
+  --backround-color: #c0d4d5fc;
+}
+
+body {
+  background-color: var(--backround-color);
+}
+
+h1,
+h2 {
+  color: var(--primary-color);
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+h3 {
+  color: var(--tertiary-color);
+}
+table {
+  border: 3px solid var(--primary-color);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid var(--primary-color);
+}
+
+th {
+  background-color: var(--secondary-color);
+}
+.personal-info {
+  background-color: var(--secondary-color);
+}
+.personal-info-container {
+  display: inline-block;
+}
